@@ -1,0 +1,21 @@
+.listContact {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0 auto;
+    border: solid 3px rgb(84, 80, 80);
+    border-radius: 5px;
+}
+
+.buttonDeleteContact {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.buttonDeleteContact:hover {
+    color: white;
+    background-color: rgb(253, 2, 2);
+    border: solid 2px rgb(4, 4, 4);
+    transform: skew(-12deg);
+}
